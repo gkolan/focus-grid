@@ -1,0 +1,9 @@
+# Normalize to LF in the repository and on checkout so diffs on Windows
+# clones (core.autocrlf=true) show real changes, not line-ending churn.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.pdf binary

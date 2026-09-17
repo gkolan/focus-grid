@@ -1,0 +1,31 @@
+name: Feature request
+description: Propose a change to what FocusGrid does.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Check docs/roadmap.md first. Sync, accounts, and sharing are
+        deliberately out of scope; the priority engine stays deterministic.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the situation, not the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: What would leave the browser?
+      description: If the change sends anything anywhere, say what and to whom.
+    validations:
+      required: true
